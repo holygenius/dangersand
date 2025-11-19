@@ -1,0 +1,59 @@
+body {
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+    background-color: #c0c0c0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FF00FF;
+}
+
+table {
+    border-style: outset;
+    border-width: 5px;
+    border-color: #808080;
+}
+
+td {
+    border-style: inset;
+    border-width: 2px;
+    border-color: #808080;
+}
+
+h1, h2, h3 {
+    font-family: "Comic Sans MS", "Chalkboard SE", sans-serif;
+    color: #000080;
+    text-shadow: 2px 2px #c0c0c0;
+}
+
+.blink {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Retro Button Style for Links in Sidebar */
+td[width="200"] table td {
+    background-color: #c0c0c0;
+    border: 2px outset #ffffff;
+    padding: 5px;
+}
+
+td[width="200"] table td:active {
+    border: 2px inset #ffffff;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
